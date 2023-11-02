@@ -1,0 +1,124 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+/*header*/
+header {
+    
+    background-color: #5F6875;
+    padding:  1rem 2vw;
+    
+}
+header h1 {
+    margin: 0;
+    color: #F5E6AF;
+    letter-spacing: 3px;
+    font-weight: 600;
+    
+}
+header p {
+    color: #F5E6AF;
+    margin:0;
+    
+}
+/*nav*/
+nav {
+    background-color: #F5B978;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+    
+}
+nav ul li a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #3A414E;
+    font-weight: 600;
+    display:block;
+    padding: .75rem 2rem;
+}
+nav ul li.active a {
+    color: white;
+    background-color: #6999A5;
+}
+nav a:hover {
+    color: white;
+}
+/*main*/
+main {
+    padding: 1rem 2vw;
+    
+}
+main h1{
+    color:#F5B978;
+    margin-bottom: .5rem;
+}
+main h2 {
+    color: #5F6875;
+    margin-bottom: .2rem;
+}
+main p {
+    margin-top: 0
+}
+main a {
+    color: #F5B978;
+}
+main a:hover {
+    color: #6999A5;
+}
+main a:visited {
+    color: #6999A5;
+}
+main ul {
+    background-color: #F5E6AF;
+    padding: .5rem 3vw;
+    list-style: square;
+    width: 20rem;
+    border: 1px solid #5F6875;
+}
+main li {
+    margin-bottom: .3rem;
+}
+
+main h3 {
+    margin: .2rem;
+    color: #5F6875;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #F5E6AF;
+    width: 20rem;
+    border: 1px solid #5F6875;
+}
+main dl {
+    
+}
+main dt {
+    color: #F5B978;
+    font-weight: 600;
+}
+main dd {
+    font-size: .9rem
+}
+main address {
+    background-color: #F5E6AF;
+    padding: .5rem 3vw;
+    width: 20rem;
+}
+/*footer*/
+footer {
+    background-color: #5F6875;
+    text-align: center;
+    color: #F5E6AF;
+    padding: 1rem 0;
+    font-size: .9rem;
+}
+footer a {
+    color: #F5B978;
+}
