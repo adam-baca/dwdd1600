@@ -108,7 +108,7 @@ main a {
 
 .myform [type=text], .myform [type=tel], .myform select, .myform textarea {
     border: solid 1px #888;
-    padding .3rem;
+    padding: .3rem;
     width: 250px;
     border-radius: .3rem;
     font-family: 'Montserrat Alternates', sans-serif;
