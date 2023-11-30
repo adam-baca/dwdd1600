@@ -49,10 +49,9 @@ header p {
         background-color: #F5B978;
     }
     nav .active a {
-        background-color: ##6999A5;
+        background-color: #6999A5;
         color: white;
         background-image: linear-gradient(to bottom, #6999A5, #5F6875)
-        
     }
 }
 /*end of media query*/
@@ -218,7 +217,7 @@ div.gallery figcaption {
 
 .myform [type=text], .myform [type=tel], .myform [type=email], .myform select, .myform textarea {
     border: solid 1px #888;
-    padding .3rem;
+    padding: .3rem;
     width: 250px;
     border-radius: .3rem;
     font-family: 'Fira Sans', sans-serif;
