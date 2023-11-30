@@ -1,4 +1,4 @@
-{box-sizing: border-box;}
+{box-sizing:border-box;}
 body {
     font-family: 'Fira Sans', sans-serif;
     font-size: 16px;
@@ -97,7 +97,7 @@ main {
     
 }
 
-main h1{
+main h1 {
     color:#F5B978;
     margin-bottom: .5rem;
 }
@@ -222,7 +222,8 @@ div.gallery figcaption {
     border-radius: .3rem;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 200;
-}.myform select {
+}
+.myform select {
     font-family: 'Fira Sans', sans-serif;
 }
 .myform textarea {
