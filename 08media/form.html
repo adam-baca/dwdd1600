@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>The Atlanta Bible: Home</title>
+        <meta name="description" content="Learn about my dog Atlanta">
+        <meta name="author" content="Adam Baca">
+        <meta name="viewport" content="width=devicewidth, initial-scale=1">
+        
+        <link rel="stylesheet" href="atlantabible.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;700&display=swap" rel="stylesheet">
+        
+        
+    </head>
+    <body>
+    <header>
+        <img src="images/atlantalogo.png" alt="site logo" width="100" height="80">
+        <div>
+        <h1>Sign-up to Meet Atlanta</h1>
+        <p>Meet Atlanta the golden Retriever</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">The Atlanta Bible</a></li>
+            <li><a href="history.html">History of Atlanta</a></li>
+            <li><a href="golden-gallery.html">Golden Gallery</a></li>
+            <li class="active"><a href="form.html">Meet Atlanta</a></li>
+            <li><a href="table.html">Golden School</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+            
+    </nav>
+    <main>
+        <h1>Waitlist Sign-up Page</h1>
+        <form method="get" class="myform" action="thanks.html">
+            
+        
+        <fieldset>
+                <Legend>Your Information</Legend>
+                <label>First Name* <input type="text" name="fname" required>
+                </label>
+                <label>Last Name* <input type="text" name="lname" required>
+                </label>
+                <label>Cell Number* <input type="tel" name="phone" required></label>
+                <label>Email Address* <input type="text" name="email" required></label>
+            </fieldset>
+            <Fieldset>
+            <legend>Activity</legend>
+                <label><input type="radio" name="method" value="Drone">Quick Meet and Greet
+                </label>
+                <label><input type="radio" name="method" value="Motorcycle">Dog Playdate
+                </label>
+                <label><input type="radio" name="method" value="Robot">Play Fetch with Atlanta
+                </label>
+            </Fieldset>
+            <fieldset>
+            <legend>Merch</legend>
+                <label><input type="Checkbox" name="porch" value="chosen">Paw-Signature</label>
+                <label><input type="Checkbox" name="Inside Garage" value="chosen">Photo Print of Atlanta</label>
+                <label><input type="Checkbox" name="Back Deck" value="chosen">T-shirt of Atlanta</label>
+            </fieldset>
+            <fieldset>
+                <legend>What day would you like to meet?</legend>
+                <label>
+                    <select name="time" placeholder="Please Select">
+                        
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thurday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                    </select>
+                </label>
+            </fieldset>
+            
+                
+            <fieldset>
+            <legend>Additonal Requests</legend>
+                    <label>
+                        <textarea name="Comments" placeholder="Please add any special instructions"></textarea>
+                    </label>
+            
+            
+            </fieldset>
+        
+        <input type="submit" value="Get on the Waitlist">
+        </form>
+        
+        
+        
+        
+        
+        
+    </main>
+    <footer>
+    <p>&copy; 2023 &bull; Adam Baca &bull; <a href="mailto:zen@mail.com">Email Us</a> &bull; <a href="tel:8014007962">Call Us</a></p>
+    </footer>
+    
+    </body>
+</html>

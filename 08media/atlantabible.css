@@ -1,0 +1,321 @@
+* {box-sizing: border-box;}
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*header*/
+header {
+    
+    background-color: #5F6875;
+    padding:  1rem 2vw;
+    display: flex;
+    align-items: flex-end;
+    
+}
+header img {
+    margin-right: 1vw
+}
+header h1 {
+    margin: 0;
+    color: #F5E6AF;
+    letter-spacing: 3px;
+    font-weight: 600;
+    
+}
+header p {
+    color: #F5E6AF;
+    margin:0;
+    
+}
+/*End of Header*/
+
+/*small screens nav*/
+@media only screen and (max-width: 600px) {
+    nav ul {
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+        
+    }
+    nav a { 
+        display: block;
+        padding: .8rem;
+        text-decoration: none;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        border: solid 1px #3A414E;
+        color: #3A414E;
+        background-color: #F5B978;
+    }
+    nav .active a {
+        background-color: #6999A5;
+        color: white;
+        background-image: linear-gradient(to bottom, #6999A5, #5F6875)
+    }
+}
+/*end of small screen nav*/
+
+/*big screens nav*/
+@media only screen and (min-width: 601px) {
+    /*nav*/
+nav {
+    background-color: #F5B978;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+    
+}
+nav ul li a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #3A414E;
+    font-weight: 600;
+    display:block;
+    padding: .75rem 2rem;
+}
+nav ul li.active a {
+    color: white;
+    background-color: #6999A5;
+}
+nav a:hover {
+    color: white;
+}
+}
+/*end of big screen nav*/
+
+
+
+
+
+
+/*main*/
+main {
+    padding: 1rem 2vw;
+    
+}
+
+main h1{
+    color:#F5B978;
+    margin-bottom: .5rem;
+}
+main h2 {
+    color: #5F6875;
+    margin-bottom: .2rem;
+}
+main p {
+    margin-top: 0
+}
+
+/*Main links*/
+main a {
+    color: #F5B978;
+    text-decoration: none;
+    
+}
+main a:hover {
+    color: #6999A5;
+    text-decoration: underline;
+}
+main a:visited {
+    color: #6999A5;
+}
+main ul {
+    background-color: #F5E6AF;
+    padding: .5rem 3vw;
+    list-style: square;
+    width: 50%;
+    max-width: 20rem;
+    border: 1px solid #5F6875;
+    clear: inherit;
+}
+/*End main links*/
+
+main li {
+    margin-bottom: .3rem;
+}
+
+main h3 {
+    margin: .2rem;
+    color: #5F6875;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #F5E6AF;
+    width: 20rem;
+    border: 1px solid #5F6875;
+}
+main dl {
+    
+}
+main dt {
+    color: #F5B978;
+    font-weight: 600;
+}
+main dd {
+    font-size: .9rem
+}
+main address.index-address {
+    background-color: #F5E6AF;
+    padding: .5rem 3vw;
+    width: 20rem;
+}
+.atlantahero {
+    width: 100%;
+    margin: 0;
+}
+/*Gallery and hero*/
+.atlantahero img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped {
+    width: 30%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure figcaption {
+    text-align: center;
+}
+div.gallery {
+    display:flex;
+    flex-wrap: wrap;
+}
+div.gallery fig img {
+    width: 98%;
+    height: auto;
+}
+div.gallery figure {
+    margin: .5rem .5rem 0 0
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .7rem;
+}
+.gallery img:hover {
+    width: 98%;
+    height: auto;
+    box-shadow: 0px 0px 10px;
+}
+/*End Gallery and hero*/
+
+/*Form*/
+.myform fieldset {
+    border: 1px solid #5F6875;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    
+}
+.myform legend {
+    color: #F5B978;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+.myform label {
+    margin: .5rem;
+}
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea {
+    display: block;
+}
+
+.myform [type=text], .myform [type=tel], .myform [type=email], .myform select, .myform textarea {
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 200;
+}.myform select {
+    font-family: 'Fira Sans', sans-serif;
+}
+.myform textarea {
+    height: 6rem;
+}
+.myform :required {
+    background: rgba(245,230,175,0.10)
+}
+.myform [type=submit] {
+    background-color: #6999A5;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+}
+button {
+    background-color: #6999A5;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+}
+/*End forms*/
+
+table.varieties {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+table.varieties th {
+    background-color: #5F6875;
+    color: white;
+    padding: .5rem 2vw;
+    text-align: left
+    
+}
+table.varieties td {
+    color: #54691f;
+    padding: .5rem 2vw;
+    
+}
+table.varieties tr:nth-child(odd) {
+    background-color: rgba(245,230,175,0.5)
+}
+table.varieties tr:hover {
+    background-color: rgba(245,185,120,0.4 )
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer {
+    background-color: #5F6875;
+    text-align: center;
+    color: #F5E6AF;
+    padding: 1rem 0;
+    font-size: .9rem;
+    clear: both;
+}
+footer a {
+    color: #F5B978;
+    text-decoration: none;
+}
+footer a:hover{
+    color:#6999A5;
+}
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}
