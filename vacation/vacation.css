@@ -138,7 +138,7 @@ main fig.wrapped img {
     max-width: 64rem;
     
 }
-.button button {
+.button a {
     background-color: #D0A3AA;
     color: white;
     font-weight: 600;
@@ -155,7 +155,7 @@ main fig.wrapped img {
     
     
 }
-.button button:hover {
+.button a:hover {
     color: black;
     background-color: #C1DBCB;
 }
