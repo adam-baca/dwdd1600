@@ -150,7 +150,7 @@ main fig.wrapped img {
     width: 300px;
     height: auto; 
     text-transform: uppercase;
-    align-items: center;
+    text-align: center;
     text-decoration: none;
     
     
