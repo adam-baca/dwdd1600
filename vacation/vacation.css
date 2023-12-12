@@ -151,6 +151,7 @@ main fig.wrapped img {
     height: auto; 
     text-transform: uppercase;
     align-items: center;
+    text-decoration: none;
     
     
 }
